@@ -1,0 +1,38 @@
+#content
+{
+	margin: auto;
+	width: 45%;
+	height: 520px;
+	border-style:solid;
+	border-radius: 20px;
+	background-image: url("images/planets.gif");
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+	
+#wrapper
+{
+	margin:auto;
+	width:80%;
+}
+	
+#header
+{
+	height : 60px;
+}
+
+#main
+{
+	height : 350px;
+}
+
+#footer
+{
+	height: 40px;
+}
+
+#pTable 
+{
+	color:white; 
+	font-size: 2em;
+}

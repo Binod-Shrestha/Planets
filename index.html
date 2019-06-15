@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="program.js"></script>
+	</head>
+		
+	<body>
+		<div id="content">
+			<div id="wrapper">	
+				<div id="header">
+					<form id="formId">
+						<h4 style="color:green">View information about planet no.
+							<input id = "planetNum" type="number" min="1" max="10">
+						</h4>
+						<p id="messageId" style="color:red"> </p>
+					</form>
+				</div>
+			
+			
+				<div id="main">
+					<h2 style="text-align: center; color: red">Planet No. <span id="planetCount" style="font-size: 45px"></span></h2>
+		
+					<table id="pTable">
+						<tr>
+							<td>Name: </td>
+							<td id="pname"></td>
+						</tr>
+						<tr>	
+							<td>Rotation Period: </td>
+							<td id="protation"></td>
+						</tr>
+						<tr>
+							<td>Orbital Period: </td>
+							<td id="porbital"></td> 
+						</tr>
+						<tr>
+							<td>Diameter: </td>
+							<td id="pdiameter"></td>
+						</tr>
+						<tr>
+							<td>Climate: </td>
+							<td id="pclimate"></td>
+						</tr>
+					</table>
+				</div>
+		
+				<div id="footer">
+					<br>
+					<button id="btnPrevious"><img src="images/prev.png" style="width:30px; height:30px"></button>
+					<button id="btnnext" style="float:right" disabled ><img src="images/next.jpg" style="width:30px; height:30px"></button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
